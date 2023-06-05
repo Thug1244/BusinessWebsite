@@ -1,0 +1,121 @@
+.NavbarHero{
+    background: linear-gradient(90deg,#f55f8d 0,#f8ae56 51%,#f55f8d);
+}
+
+.NavbarMain{
+    display: flex;
+    align-items: center!important;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    border-bottom: 1px solid white;
+    
+    
+}
+
+.NavbarLeftSide{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 15px;
+ padding-inline-end: 10px;
+    
+
+}
+
+
+.NavbarRightSide{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.icon{
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+   margin-right: 5px;
+    transition: background-color 0.3s;
+    &:hover {
+        background: linear-gradient(90deg,#f55f8d 0,#f8ae56 51%,#f55f8d);
+        color: white;
+      }
+}
+
+
+.facebook-icon{
+    transform: translate(-50%, -50%);
+    color: orange;
+    transition: color 0.3s;
+ 
+}
+
+.navFlex{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.navicon{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.logo{
+   margin-left: 40px;
+   width: 15vh;
+   margin-top: 20px;
+   margin-bottom: 10px;
+
+}
+.Navbar_Secandory{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 500px;
+}
+.Navbar_Secandory_Right> ul > li{
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+   
+}
+
+.Navbar_Secandory_List{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+ .dz-media {
+    -webkit-mask-image: url(https://samartheme2.vercel.app/_next/static/media/pic2.7dbb6ddf9303bd9a68bea197698dcbda.png);
+    mask-image: url(https://samartheme2.vercel.app/_next/static/media/pic2.7dbb6ddf9303bd9a68bea197698dcbda.png);
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+ }
+
+@media only screen and (max-width: 1400px) {
+    .dz-media {
+        width:65vw
+    }
+}
