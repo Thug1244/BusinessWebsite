@@ -1,0 +1,43 @@
+.dz-media {
+    -webkit-mask-image: url(https://samartheme2.vercel.app/_next/static/media/pic2.7dbb6ddf9303bd9a68bea197698dcbda.png);
+    mask-image: url(https://samartheme2.vercel.app/_next/static/media/pic2.7dbb6ddf9303bd9a68bea197698dcbda.png);
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 130%;
+    mask-size: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    height: 90vh;
+    visibility: visible;
+
+ }
+
+@media only screen and (max-width: 1400px) {
+    .dz-media {
+        width:65vw
+    }
+}
+
+
+.HeroMain{
+    display: grid;
+    grid-template-columns: 2;
+   
+    background: linear-gradient(90deg,#f55f8d 0,#f8ae56 51%,#f55f8d);
+}
+
+.HeroLeftSide{
+    width:50%;
+}
+
+.HeroHeading{
+    visibility: visible;
+    animation-delay: 1s;
+    animation-name: fadeInUp;
+    color: white;
+    margin-left: 10%;
+    font-size: 3rem;
+}

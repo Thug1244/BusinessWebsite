@@ -76,6 +76,7 @@
    margin-bottom: 10px;
 
 }
+
 .Navbar_Secandory{
     display: flex;
     justify-content: space-between;
@@ -98,24 +99,3 @@
   color: white;
 }
 
- .dz-media {
-    -webkit-mask-image: url(https://samartheme2.vercel.app/_next/static/media/pic2.7dbb6ddf9303bd9a68bea197698dcbda.png);
-    mask-image: url(https://samartheme2.vercel.app/_next/static/media/pic2.7dbb6ddf9303bd9a68bea197698dcbda.png);
-    -webkit-mask-position: center center;
-    mask-position: center center;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100%;
-    mask-size: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-
- }
-
-@media only screen and (max-width: 1400px) {
-    .dz-media {
-        width:65vw
-    }
-}

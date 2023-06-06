@@ -33,9 +33,6 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-
-    {/* Hero Section */}
-
     <div>
         <div className="HeroLeft">
         <div className="Navbar_Secandory">
@@ -55,12 +52,7 @@ const Navbar = () => {
     </div>
    
     </div>
-    {/*Navbar Hero Right image */}
 
-    <div className="dz-media">
-        <img src="pic1.jpg" alt="HeroImage" />
-        
-    </div>
     </div>
   );
 };
